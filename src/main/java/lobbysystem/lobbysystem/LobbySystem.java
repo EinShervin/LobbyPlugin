@@ -9,7 +9,7 @@ public final class LobbySystem extends JavaPlugin {
     private static boolean EnableStatus;
     @Override
     public void onEnable() {
-        this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
+        this.getServer().getMessenger().registerOutgoingPluginChannel(this, "bungeecord:main");
         EnableStatus = true;
         lobbySystem = this;
         inventorys = new Inventorys(this);
