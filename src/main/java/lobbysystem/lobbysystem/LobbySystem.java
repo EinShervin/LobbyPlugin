@@ -1,6 +1,5 @@
 package lobbysystem.lobbysystem;
 
-import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class LobbySystem extends JavaPlugin {
