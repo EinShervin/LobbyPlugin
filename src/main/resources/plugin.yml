@@ -1,0 +1,8 @@
+name: LobbySystem
+version: '${project.version}'
+main: lobbysystem.lobbysystem.LobbySystem
+api-version: 1.19
+
+commands:
+  EnableLobbySystem:
+    description: Enter true or false as argument to Enable or Disable the Plugin.
