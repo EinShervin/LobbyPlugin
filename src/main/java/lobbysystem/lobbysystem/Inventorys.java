@@ -100,7 +100,7 @@ public class Inventorys implements Listener {
         ByteArrayDataOutput out = ByteStreams.newDataOutput();
         out.writeUTF("Connect");
         out.writeUTF(server);
-        player.sendPluginMessage(LobbySystem.getLobbySystem(), "bungeecord:main", out.toByteArray());
+        player.sendPluginMessage(LobbySystem.getLobbySystem(), "BungeeCord", out.toByteArray());
     }
 
     @EventHandler
